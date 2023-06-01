@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 5px;
+}
+
+.num {
+    position: absolute;
+    height: 1vh;
+    top: -3vh;
+    right: 0;
+    padding-right: 5vw;
+    font-size: 3vh;
+    color: white;
+}
+.img {
+    top: -1vh;
+    object-fit: cover;
+    height: 101vh;
+    width: 98vw;
+}
+.title {
+    top: 97vh;
+    text-align: center;
+}
+
+.grid {
+    top: 110vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+    .grid li > div {
+        background: blue;
+        padding: 110px 60px;
+        margin: 4px;
+        text-align: center;
+    }
+    .grid li p {
+        color: #fff;
+        text-decoration: none;
+    }
+@media all and (min-width: 27em) {
+    .grid li{
+        width: 40%;
+        float: left;
+    }
+}
+@media all and (min-width: 40em) {
+    .grid li{
+        width: 33%;
+    }
+}
+@media all and (min-width: 60em) {
+    .grid li{
+        width: 20%;
+    }
+}
+
+.text{
+    top: 1vh;
+    text-align: center;
+}
